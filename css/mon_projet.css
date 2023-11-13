@@ -1,0 +1,15 @@
+body h1{
+    font-weight: bold;
+    text-align: center;
+    text-shadow: darkslategray;
+    text-transform: uppercase;
+}
+
+html{
+    background-color: green;
+}
+
+.card-img-top{
+    text-align: center;
+    border-radius: 500px 500px 500px 500px;
+}

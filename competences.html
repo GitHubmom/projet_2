@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!--  -->
+    <title>Mes compétences</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- <link href="css/texte.css" rel="stylesheet" /> -->
+
+<!-- les données ci dessous sont les données pour l'insertion de mon logo personnallisé -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../projet_2/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../projet_2/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../projet_2/icons/favicon-16x16.png">
+    <link rel="manifest" href="../projet_2/site.webmanifest">
+
+    <!-- le boc suivant avec les balises style permet decrire du code css à l'interieur du code HTML. -->
+    <style>
+        
+      /* class1 est defini sur le h1 pour pouvoir lui appliquée les élemants css ci dessous */
+        .class1 {
+            text-align: center;
+            text-decoration: solid;
+            text-transform: uppercase;
+           background-color: coral;
+           font-weight:bold;
+           border:groove;
+        }
+     /* class2 est défini sur les div pour pouvoir appliqées les propriétes css ci dessous ensemble. */
+        .class2 {
+            border:double;
+            border-width: 50%;
+            border-top-right-radius: 10%;
+            border-bottom-left-radius: 10%;
+            border-color: coral;
+            text-decoration: solid;
+        }
+
+        /* les propriétés css suivants sont appliquées sur le h4 */
+        h4{
+            text-decoration:currentColor;
+            text-transform:lowercase;
+            font-style:italic;
+        }
+
+       /* class3 est appliquée sur les hr pour mettre un trait separateur entre les differentes parties */
+        .class3{
+            border: 5px solid rgb(1, 12, 1);
+        }
+        
+        /* class4 est appliquée sur le le corps du fichiers pour le centré en laissant des marges gauche et droite. */
+        .class4{
+           margin-left: 10%;
+           margin-right: 10%;
+        }
+        .class5{
+            background-color: coral;
+        }
+        
+        /* la classe liste pour modifier chaque element de la liste */
+           .liste a{
+            color: black;
+            background: coral;
+            font-size: 30px;
+            width: 20rem;
+           font-weight: bold;
+           text-decoration: none;;
+        
+        }
+        /* pour enlever les points et donner une couleur noire au texte */
+      .liste li{
+        list-style-type: none;
+        border:black;
+      }
+
+       
+    </style>
+</head>
+
+<body class="class4">
+    <nav>
+        <ul class="liste">
+   <li><a href="texte.html" title="page principale" >Acceuil</a></li> 
+   <li><a href="monprofil.html" title="voir mes experiences">Experience</a></li> 
+      </ul>
+</nav>
+<div> 
+    <h1 class="class1"> Mes compétences</h1>
+    <hr class="class3">
+    <h3 class="class1">Langage de programmation</h3>
+    <div class="class2">
+        <!-- 
+            utilstion des bar progress de boostrap pour representer mes experiences et leurs pourcentages
+         -->
+        <h4>Le language C++</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70"
+                    aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    80%
+                </div>
+            </div>
+    </div>
+
+    <div class="class2" >
+        <h4>Le language java</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                    50%
+                </div>
+            </div>
+    </div>
+
+    <div class="class2">
+        <h4>Le language assembleur</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                    60%
+                </div>
+            </div>
+    </div>
+
+
+    <div class="class2">
+        <h4>Le language SQL</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    70%
+                </div>
+            </div>
+    </div>
+
+    <div class="class2">
+        <h4>UML</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                    60%
+                </div>
+            </div>
+    </div>
+
+    <div class="class2">
+        <h4>Le langage HTML </h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    70%
+                </div>
+            </div>
+    </div>
+
+    <div class="class2">
+        <h4>Le langage css </h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    70%
+                </div>
+            </div>
+    </div>
+
+    <div class="class2">
+        <h4>Le langage c# </h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                    60%
+                </div>
+            </div>
+    </div>
+
+</div>
+<hr class="class3">
+    <h3 class="class1">Espaces code</h3>
+ <!--  
+    utilisation des badges de bootsrap pour mes logiciels de codages
+  -->
+  <div class="class5">
+    <h1><span class="label label-default">Visual Studio</span></h1>
+    <h1><span class="label label-default">Visual Studio Code</span></h1>
+    <h1><span class="label label-default">Eclipse</span></h1>
+    <h1> <span class="label label-default">MySQL workbench</span></h1>
+</div>
+    
+   
+
+</body>
+
+</html>
